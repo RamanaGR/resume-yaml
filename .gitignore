@@ -13,6 +13,14 @@ output/
 resumes/
 *.pdf
 
+# Personal profile YAMLs and backups
+Ramana*.yaml
+Ravi*.yaml
+resume_yaml/Ramana*.yaml
+resume_yaml/Ravi*.yaml
+Ramana-BKUP.yaml
+proejctcode.zip
+
 # Virtual environments
 .venv/
 venv/
