@@ -1,0 +1,145 @@
+cv:
+  name: Ravi Kumar Rayapalli
+  location: Dublin, CA
+  email: ravirayapalli30@gmail.com
+  phone: +1 7065907391
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: ravi-rayapalli
+    - network: GitHub
+      username: ravi-30
+
+  sections:
+    summary:
+      - AI Engineer with 8+ years of software development experience including 2+ years building production AI systems using Large Language Models, Retrieval Augmented Generation (RAG), and multi-agent architectures. Experienced in designing agentic workflows, semantic retrieval pipelines, and LLM evaluation frameworks using LangGraph, Vertex AI, and vector databases. Strong Python engineering background with additional experience in Machine Learning experimentation and scalable data pipelines on GCP and AWS.
+
+    experience:
+
+      - company: Optum (UHG)
+        position: AI Engineer
+        start_date: 2026-02
+        end_date:
+        location: United States
+        highlights:
+          - Designed and built an LLM powered analytics assistant using Vertex AI (Gemini) and Google ADK that converts natural language queries into SQL and LookML for conversational enterprise analytics.
+          - Architected multi agent AI workflows using LangGraph enabling collaborative reasoning between query generation, metadata discovery, and analytics interpretation agents.
+          - Developed stateful agentic systems with agent to agent communication enabling dynamic task delegation and tool execution across specialized agents.
+          - Implemented Retrieval Augmented Generation pipelines with semantic chunking, embedding generation, and vector search using Sentence Transformers and Milvus.
+          - Designed hybrid retrieval architectures combining BM25 keyword search with dense vector retrieval to improve contextual grounding of LLM responses.
+          - Integrated Model Context Protocol (MCP) and structured tool calling using Pydantic schemas ensuring deterministic and schema validated LLM outputs.
+          - Implemented conversational memory and persistent context systems enabling multi turn reasoning and improved user interaction continuity.
+          - Developed evaluation frameworks using RAGAS, BERTScore, and LLM as a Judge to measure response quality and retrieval accuracy.
+
+      - company: Comcast
+        position: AI Engineer Intern
+        start_date: 2025-07
+        end_date: 2026-01
+        location: United States
+        highlights:
+          - Built Python based data ingestion pipelines to collect and preprocess structured and unstructured documents for enterprise RAG knowledge systems.
+          - Developed document processing workflows including text normalization, metadata extraction, and semantic chunking for embedding generation.
+          - Generated vector embeddings using Sentence Transformers and indexed them in Milvus vector database for scalable semantic search.
+          - Implemented hybrid retrieval pipelines combining BM25 keyword search and dense vector similarity search.
+          - Built streaming knowledge ingestion pipelines using Apache Kafka and Apache Flink enabling real time updates to knowledge bases.
+          - Managed document metadata and indexing using PostgreSQL supporting contextual retrieval pipelines.
+          - Processed large scale datasets using Apache Spark enabling distributed preprocessing and embedding generation.
+          - Orchestrated AI pipelines using Apache Airflow scheduling ingestion, preprocessing, embedding generation, and indexing workflows.
+
+      - company: TalentScreen
+        position: AI Engineer Intern
+        start_date: 2024-01
+        end_date: 2024-12
+        location: United States
+        highlights:
+          - Developed an AI powered talent management platform using RAG pipelines and multi agent orchestration to automate candidate evaluation workflows.
+          - Designed a secure multi tenant AI architecture with isolation across vector databases, agent contexts, and knowledge stores.
+          - Implemented hierarchical multi agent orchestration using Google ADK enabling deterministic agent routing and multi tool execution.
+          - Designed RAG pipelines with semantic chunking strategies, metadata filtering, and hybrid retrieval.
+          - Implemented hybrid memory architecture using Redis for session memory and PostgreSQL and Milvus for long term knowledge persistence.
+          - Deployed containerized AI services on Google Kubernetes Engine and integrated Vertex AI for LLM inference and evaluation workflows.
+          - Implemented observability using Langfuse, Cloud Logging, and monitoring tools to trace agent workflows and prompt performance.
+
+      - company: Equiply.io
+        position: Software Engineer Intern
+        start_date: 2025-01
+        end_date: 2025-03
+        location: United States
+        highlights:
+          - Developed full stack web applications using JavaScript and TypeScript with Node.js backend services and modern frontend frameworks.
+          - Built RESTful APIs using Node.js and Express to support application features, data access, and integrations with external services.
+          - Implemented server side business logic and data processing pipelines using TypeScript and asynchronous programming patterns.
+          - Designed and optimized database queries and data models for relational and NoSQL databases.
+          - Built dynamic user interfaces and reusable components using modern JavaScript frameworks.
+          - Integrated frontend applications with backend APIs enabling seamless data exchange and real time application functionality.
+          - Implemented authentication, validation, and error handling mechanisms to improve application security and reliability.
+          - Containerized application services using Docker and participated in CI/CD workflows for automated build and deployment pipelines.
+
+      - company: State of Andhra Pradesh
+        position: Senior Software Engineer
+        start_date: 2020-12
+        end_date: 2023-07
+        location: India
+        highlights:
+          - Developed enterprise automation applications using Python based services and Microsoft Power Platform reducing manual workflows by 40 percent.
+          - Built data processing pipelines and automation scripts for enterprise reporting systems.
+          - Designed integrations across enterprise CRM systems and backend services using APIs and data transformation pipelines.
+          - Implemented CI/CD pipelines using Azure DevOps and Git enabling automated deployments.
+          - Mentored junior developers and implemented best practices in enterprise software development.
+
+      - company: Aituristic Software Pvt Ltd
+        position: Software Engineer
+        start_date: 2018-02
+        end_date: 2020-11
+        location: India
+        highlights:
+          - Developed backend services and enterprise integrations supporting CRM platforms and analytics systems.
+          - Built Power Apps and automation workflows integrating enterprise APIs and business data sources.
+          - Developed reporting dashboards using Power BI for operational insights.
+
+      - company: Innovapath IT Solutions Pvt Ltd
+        position: Software Engineer
+        start_date: 2017-05
+        end_date: 2018-01
+        location: India
+        highlights:
+          - Developed Python backend APIs and automation tools using modular architecture.
+          - Built automated testing frameworks using Selenium and TestNG.
+          - Containerized applications using Docker and deployed them on AWS EC2 and S3.
+          - Implemented CI/CD pipelines using Jenkins and Git.
+
+    skills:
+      - label: Programming Languages
+        details: Python, SQL, JavaScript, TypeScript, Java
+
+      - label: AI & LLM Frameworks
+        details: Google ADK, LangChain, LangGraph, LlamaIndex, HuggingFace Transformers, Pydantic
+
+      - label: Machine Learning
+        details: PyTorch, Scikit-learn, MLflow, Feature Engineering, Model Evaluation
+
+      - label: RAG & Retrieval Systems
+        details: Vector Databases, Milvus, Semantic Search, Embeddings, Hybrid Retrieval, BM25
+
+      - label: LLM Platforms
+        details: Vertex AI (Gemini), OpenAI, Anthropic Claude, LLaMA, Mistral, AWS Bedrock
+
+      - label: Data Engineering
+        details: Apache Airflow, Spark, Kafka, Flink, Databricks, Snowflake
+
+      - label: Cloud & DevOps
+        details: GCP (GKE, Cloud Run, PubSub), AWS (EKS, Lambda, EC2, S3), Docker, Kubernetes, CI/CD
+
+      - label: Databases
+        details: PostgreSQL, MongoDB, Neo4j, Amazon RDS
+
+    education:
+      - institution: Cleveland State University
+        area: Information Systems
+        degree: Master of Science
+        end_date: 2025-05
+        location: Cleveland, OH, USA
+
+design:
+  entries:
+    allow_page_break: true

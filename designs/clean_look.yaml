@@ -1,0 +1,43 @@
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 8pt              # Reduced to pack content into two pages
+  page_size: letter
+  color: "#000000"
+  disable_last_updated_date: true
+
+  entries:
+    allow_page_break: true
+  page:
+    show_page_numbering: false
+  
+  header:
+    alignment: center
+    entry_area_vertical_between: 0.04cm
+    connections:
+      show_icons: false
+      separator: " | "          # Use bar separator between connection items
+      hyperlink: true
+      display_urls_instead_of_usernames: false
+    # Header-specific sizing and spacing to compact the top area
+    name_font_family: Latin Modern Serif
+    name_font_size: 12pt
+    name_bold: true
+    vertical_space_between_name_and_connections: 0.02cm
+    vertical_space_between_connections_and_first_section: 0.05cm
+  
+  margins:
+    # NARROW MARGINS
+    page_top: 1.0cm
+    page_bottom: 1.0cm
+    page_left: 1.0cm
+    page_right: 1.0cm
+    
+    # STANDARD SPACING
+    # These match the visual flow of the expected document.
+    entry_area_vertical_between: 0.04cm
+    highlights_area_vertical_between: 0.02cm
+    vertical_between_section_title_and_content: 0.02cm
+
+locale:
+  language: english
