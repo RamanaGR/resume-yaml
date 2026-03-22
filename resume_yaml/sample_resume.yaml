@@ -1,0 +1,31 @@
+cv:
+  name: "Your Name"
+  title: "Software Engineer"
+  location: "City, Country"
+  email: "your.email@example.com"
+  phone: "+1 (555) 555-5555"
+  summary: |
+    Short professional summary (1-3 sentences) describing your role,
+    strengths and what you bring to a team.
+  sections:
+    experience:
+      - company: Example Corp
+        position: Senior Developer
+        start_date: 2021-06
+        end_date: present
+        highlights:
+          - Led a team of 4 to deliver X feature
+          - Improved performance of Y by 35%
+    education:
+      - institution: University Name
+        degree: B.Sc. in Computer Science
+        start_date: 2016-08
+        end_date: 2020-05
+    skills:
+      - Python
+      - YAML
+      - Jinja2
+    projects:
+      - name: Resume YAML Generator
+        description: A small tool that converts YAML data into PDF resumes
+        link: https://github.com/your/repo
